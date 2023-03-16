@@ -43,3 +43,43 @@ body{
 #nav-home a{
     color: black;
 }
+
+/* MAIN */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 6em);
+   }
+.content{
+font-size: 2rem;
+}
+.background-content{
+    background:rgb(27, 27, 27);
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.btn {
+display: flex;
+justify-content: center;
+margin-top: 1em;
+}
+.btn button{
+    min-height: 3em;
+    padding:1.5em;
+    background:none;
+    border-radius: .4em;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+footer{
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid saddlebrown;
+}
+p{
+    text-align: center;
+}

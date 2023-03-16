@@ -60,6 +60,9 @@ font-size: 2rem;
     text-align: center;
     font-size: 2.5rem;
 }
+#color{
+    text-transform: capitalize;
+}
 .btn {
 display: flex;
 justify-content: center;
@@ -72,13 +75,16 @@ margin-top: 1em;
     border-radius: .4em;
     font-size: .8rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
+
+/* FOOTER */
 footer{
     min-height: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid saddlebrown;
+border-top: 1px solid #4fa3f7;
 }
 p{
     text-align: center;

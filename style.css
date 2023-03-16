@@ -77,6 +77,10 @@ margin-top: 1em;
     text-transform: uppercase;
     cursor: pointer;
 }
+#btn:hover{
+    color: white;
+    background-color: black;
+}
 
 /* FOOTER */
 footer{
